@@ -23,7 +23,7 @@ class GreekGetter:
 
 class EnglishGetter:
     """Simply echoes the msg ids"""
-    def get(self, msgid):
+    def getby(self, msgid):
         return str(msgid)
 
 
@@ -36,4 +36,4 @@ def get_localizer(language="English"):
 e, g = get_localizer("English"), get_localizer("Greek")
 # Localize some text
 for msgid in "dog parrot cat bear".split():
-    print(e.get(msgid), g.get(msgid))
+    print(e.getby(msgid), g.getby(msgid))
