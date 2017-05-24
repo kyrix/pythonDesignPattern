@@ -13,7 +13,7 @@ class GreekGetter:
     def __init__(self):
         self.trans = dict(dog="蟽魏蠉位慰蟼", cat="纬维蟿伪")
 
-    def get(self, msgid):
+    def getby(self, msgid):
         """We'll punt if we don't have a translation"""
         try:
             return self.trans[msgid]
