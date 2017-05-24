@@ -15,7 +15,7 @@ class foo(object):
     def f2(self):
         print("original f2")
 
-
+####
 class foo_decorator(object):
     def __init__(self, decoratee):
         self._decoratee = decoratee
