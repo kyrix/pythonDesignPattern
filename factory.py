@@ -9,7 +9,7 @@ __mtime__ = '2017/5/24'
 
 
 class GreekGetter:
-    """A simple localizer a   dddla gettext"""
+    """A simple localizer a   dddla get text"""
     def __init__(self):
         self.trans = dict(dog="蟽魏蠉位慰蟼", cat="纬维蟿伪")
 
