@@ -20,7 +20,7 @@ def count_to(count):
 
 # Test the generator
 count_to_two = lambda: count_to(2)
-count_to_five = lambda: count_to(5)
+count_to_one = lambda: count_to(5)
 
 print('Counting to two...', end=' ')
 for number in count_to_two():
@@ -28,7 +28,7 @@ for number in count_to_two():
 print()
 
 print('Counting to five...', end=' ')
-for number in count_to_five():
+for number in count_to_one():
     print(number)
 
 print()
